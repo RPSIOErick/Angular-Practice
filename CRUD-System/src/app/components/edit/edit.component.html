@@ -1,0 +1,27 @@
+<h1 class="title">EDITAR ITEM</h1>
+
+<div id="c-form">
+
+  <form (ngSubmit)="saveProduct()" id="form-edicao">
+    <label for="item-Name"></label>
+    <input name="item-nome" type="text" id="item-Name" placeholder="Nome do item" [(ngModel)]="product.nome" required>
+
+    <br>
+
+    <label for="item-Description"></label>
+    <input name="item-descricao" type="text" id="item-Description" placeholder="Descrição do item" [(ngModel)]="product.descricao" required>
+
+    <br>
+
+    <label for="item-Price"></label>
+    <div class="price-container">
+      <span class="currency-prefix">R$</span>
+      <input name="item-preco" type="text" id="item-Price" placeholder="Preço do item" [(ngModel)]="product.preco" required minlength="2">
+    </div>
+
+    <br>
+
+    <button type="submit" class="Button-Style">Salvar</button>
+  </form>
+
+</div>

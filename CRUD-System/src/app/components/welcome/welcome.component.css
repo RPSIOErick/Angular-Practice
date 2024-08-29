@@ -1,0 +1,25 @@
+#d-welcome
+{
+  text-align: center;
+  padding: 1em;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  color: #eff2ff;
+
+  font-size: 1.2em;
+
+  width: 90%;
+
+  animation: slide-in 0.6s ease-in-out;
+}
+
+@media screen and (orientation: portrait)
+{
+  #d-welcome
+  {
+    font-size: 3em;
+  }
+
+}

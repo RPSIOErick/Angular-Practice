@@ -1,0 +1,95 @@
+/* You can add global styles to this file, and also import other style files */
+
+body
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://wallpapercave.com/wp/wp2757874.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.Button-Style
+{
+  border: none;
+  padding: 1em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  background-color: #f5f5f5;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 5em;
+
+  transition: all 0.3s;
+
+  animation: growth 1s ease-in-out;
+
+  outline: none;
+}
+
+.Button-Style:hover
+{
+  background-color: #971a1a;
+  padding-left: 3.5em;
+  padding-right: 3.5em;
+  color: #eff2ff;
+
+  outline: 0.3em solid #f5f5f5;
+  outline-offset: 0.3em;
+}
+
+.title
+{
+  text-align: center;
+  margin: 0;
+  padding-top: 3.5em;
+  margin-bottom: 3em;
+  color: #f5f5f5;
+}
+
+@media screen and (orientation: portrait)
+{
+  body
+  {
+    max-height: 100%;
+    overflow-y: hidden;
+  }
+
+  .title
+  {
+    font-size: 4em;
+  }
+
+}
+
+@keyframes growth
+{
+  from
+  {
+    padding: 1em;
+  }
+  to
+  {
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+  }
+}
+
+@keyframes slide-in
+{
+  from
+  {
+    top: 35%;
+    opacity: 0;
+    pointer-events: none;
+  }
+  to
+  {
+    top: 30%;
+    opacity: 1;
+  }
+
+}

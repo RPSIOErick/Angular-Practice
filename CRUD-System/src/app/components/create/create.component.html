@@ -1,0 +1,26 @@
+<h1 class="title"> REGISTRE UM NOVO ITEM </h1>
+
+<div id="c-form">
+
+  <form method="POST" action="http://localhost:3000/api/cadastrar" id="form-cadastro">
+    <label for="item-Name"></label>
+    <input name="item-nome" type="text" id="item-Name" placeholder="Nome do item" required>
+
+    <br>
+
+    <label for="item-Description"></label>
+    <input name="item-descricao" type="text" id="item-Description" placeholder="Descrição do item" required>
+
+    <br>
+
+    <label for="item-Price"></label>
+    <div class="price-container">
+      <span class="currency-prefix">R$</span>
+      <input name="item-preco" type="text" id="item-Price" placeholder="Preço do item" required minlength="2">
+    </div>
+
+    <br>
+
+    <button type="submit" class="Button-Style">Cadastrar</button>
+  </form>
+</div>

@@ -1,0 +1,91 @@
+.table {
+  width: 80%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 0.8em;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 0 0.4em rgba(0, 0, 0, 0.1);
+
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -15%);
+
+  animation: slide-in 0.6s ease-in-out;
+}
+
+/* Estilo para o cabeçalho da tabela */
+.table thead {
+  background-color: #f4f4f4;
+}
+
+.table th {
+  padding: 1.5em;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+
+  text-align: center;
+}
+
+.table tbody tr:hover
+{
+  filter: invert(1.1);
+  background-color: #F5F5F5;
+
+  transition: all 0.3s;
+}
+
+.table td {
+  padding: 1.5em;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+/* Estilo para os botões */
+.table button {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 0.5em 1em;
+  margin: 0 0.5em;
+  border-radius: 1em;
+  font-size: 1em;
+  cursor: pointer;
+
+  transition: all 0.3s;
+}
+
+.table button:hover {
+  background-color: #0056b3;
+}
+
+
+@media screen and (orientation: portrait) {
+
+  .table-container
+  {
+    transform: scale(0.9);
+  }
+
+  .table {
+    width: 80%;
+    font-size: 2.2em;
+
+    position: fixed;
+
+    margin-top: 2em;
+  }
+
+  .table tbody tr td
+  {
+    border: 0.1em solid #ddd;
+  }
+
+  .table button
+  {
+    margin: 0.5em;
+    width: 90%;
+  }
+
+}

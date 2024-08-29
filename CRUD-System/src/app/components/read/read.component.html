@@ -1,0 +1,25 @@
+<h1 class="title"> TABELA DE REGISTROS </h1>
+
+<div class="table-container">
+  <table class="table" id="products-table">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Descrição</th>
+        <th>Preço</th>
+        <th>Opções</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of products">
+        <td>{{ product.nome }}</td>
+        <td>{{ product.descricao }}</td>
+        <td>R${{ product.preco }}</td>
+        <td>
+          <button (click)="editProduct(product.id)">Editar</button>
+          <button (click)="deleteProduct(product.id)">Excluir</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

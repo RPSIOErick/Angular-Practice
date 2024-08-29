@@ -1,0 +1,8 @@
+<!-- app.component.html -->
+<nav>
+  <a (click)="navigateToHome()" id="house-link"> <img src="https://cdn-icons-png.flaticon.com/256/25/25694.png"> <span class="tooltip">Home</span> </a>
+  <a (click)="navigateToCreate()" id="create-link"> <img src="https://cdn-icons-png.flaticon.com/512/992/992651.png"> <span class="tooltip">Criar Produto</span> </a>
+  <a (click)="navigateToRead()" id="read-link"> <img src="https://cdn-icons-png.freepik.com/256/1950/1950715.png?semt=ais_hybrid"> <span class="tooltip"> Listar Produtos </span> </a>
+</nav>
+
+<router-outlet></router-outlet>
