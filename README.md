@@ -28,7 +28,7 @@
 
 ### <p>How to Run It</p>
 
-<p>I strongly recommend running the project in Visual Studio Code. You'll need to install Node.js to run the application.
+<p>I strongly recommend running the project in Visual Studio Code. You'll need to install Node.js (version 18 or above) to run the application.
 
 First, install the node modules in both the API and CRUD-System folders. In the terminal, navigate to the API folder and run:
 
