@@ -26,7 +26,7 @@
 
 <div id="how-to-use">
 
-### <p>How to Run It</p>
+## <p>How to Run It</p>
 
 <p>I strongly recommend running the project in Visual Studio Code. You'll need to install Node.js (version 18 or above) to run the application.
 
@@ -38,7 +38,19 @@ or
 
     npm i
 
-Do the same in the CRUD-System folder.
+Now, go to the CRUD-System folder on the terminal and use the following commands:
+
+    npm install -g @angular/cli
+    npm install @angular-devkit/build-angular --force
+
+### <p>Setting Up the Database</p>
+
+<p>To run the application with the database, you'll need a Firestore database in Google Firebase (https://firebase.google.com/). <br>
+Access your project's settings, go to the Service Accounts tab, and generate a new private key. Name the key "serviceAccountKey.json". Once downloaded, place it in the "db" folder of the project (api -> config -> db). <br><br>
+Everything should be set up and ready to go!
+</p>
+
+<br>
 
 To start the API after installing the modules, open the "API" folder and run the following command in the terminal:
 
@@ -54,11 +66,8 @@ This will start the Back End of the application. Next, to run the Front End, ope
 
 </p>
 
-### <p>Setting Up the Database</p>
+<br>
 
-<p>To run the application with the database, you'll need a Firestore database in Google Firebase (https://firebase.google.com/). <br>
-Access your project's settings, go to the Service Accounts tab, and generate a new private key. Name the key "serviceAccountKey.json". Once downloaded, place it in the "db" folder of the project (api -> config -> db). <br><br>
-Everything should be set up and ready to go!
-</p>
+<p> That's everything you'll need to do in order to run the application as a whole. </p>
 
 </div>
