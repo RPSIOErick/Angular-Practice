@@ -30,6 +30,16 @@
 
 <p> I strongly recommend running it in Visual Code Studio. You'll need to install Node.JS to run the application in general.
 
+First, you'll need to install the node modules on both folders, so, you can enter the API folder on the terminal and run:
+
+    npm install
+
+or
+
+    npm i
+
+The same goes to the CRUD-System folder.
+
 To run the API part, open up the "API" file and run the following command on the terminal:
 
     node api.js
