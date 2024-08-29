@@ -1,36 +1,36 @@
-<div align='center'>
+<div align="center">
 
-## <p style='margin-top: -0.5em;'> CRUD System </p>
+## <p style="margin-top: -0.5em;">CRUD System</p>
 
 </div>
 
-<div id='images' style='display: flex; justify-content: space-around;' align='center'>
+<div id="images" style="display: flex; justify-content: space-around;" align="center">
 
-<img src='https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white' style='height: 3em;'/>
+<img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" style="height: 3em;"/>
 
-<img src='https://img.shields.io/badge/Express.JS-43853D?style=for-the-badge&logo=node.js&logoColor=white' style='height: 3em;'/>
+<img src="https://img.shields.io/badge/Express.JS-43853D?style=for-the-badge&logo=node.js&logoColor=white" style="height: 3em;"/>
 
-<img src='https://img.shields.io/badge/Firebase-000?style=for-the-badge&logo=firebase&logoColor=ffca2' style='height: 3em;'/>
+<img src="https://img.shields.io/badge/Firebase-000?style=for-the-badge&logo=firebase&logoColor=ffca2" style="height: 3em;"/>
 
 </div>
 
 ---
 
-<div id='about'>
+<div id="about">
 
-## <p align='center'> About the project! </p>
+## <p align="center">About the Project</p>
 
-<p> The project it's simple. It uses Angular (Front End), Express.JS (Back-End) and Firebase (Data Base). For this project, I chose to use API Rest for it's structure, it is the main subject to study here. </p>
+<p>This is a simple project that uses Angular (Front End), Express.JS (Back End), and Firebase (Database). The main focus is on using a RESTful API structure, which is the key learning objective here.</p>
 
 </div>
 
-<div id='how-to-use'>
+<div id="how-to-use">
 
-### <p> How to run it? </p>
+### <p>How to Run It</p>
 
-<p> I strongly recommend running it in Visual Code Studio. You'll need to install Node.JS to run the application in general.
+<p>I strongly recommend running the project in Visual Studio Code. You'll need to install Node.js to run the application.
 
-First, you'll need to install the node modules on both folders, so, you can enter the API folder on the terminal and run:
+First, install the node modules in both the API and CRUD-System folders. In the terminal, navigate to the API folder and run:
 
     npm install
 
@@ -38,28 +38,27 @@ or
 
     npm i
 
-The same goes to the CRUD-System folder.
+Do the same in the CRUD-System folder.
 
-To run the API part, open up the "API" file and run the following command on the terminal:
+To start the API after installing the modules, open the "API" folder and run the following command in the terminal:
 
     node api.js
 
-Or, if you have nodemon installed, you can run with the following command:
+If you have Nodemon installed, you can use the following command instead:
 
     nodemon api.js
 
-This should turn on the Back End of the application.
-Now, you have to run the Front End, open the file "CRUDSystem" on the terminal and use the command:
+This will start the Back End of the application. Next, to run the Front End, open the "CRUDSystem" folder in the terminal and use the command:
 
     ng serve
 
 </p>
 
-### <p> What about the database? </p>
+### <p>Setting Up the Database</p>
 
-<p> In order to run it with the database working, you'll need to have a Firestore database on your Google Firebase (https://firebase.google.com/). <br>
-You'll need to access your Project Configuration and go to the Service Account tab. There, you'll need to generate a new private key and name it as "serviceAccountKey.json". Once you've download it, put it on the "db" file of the project (api -> config -> db). <br><br>
-There, everything should be ready to go now!
+<p>To run the application with the database, you'll need a Firestore database in Google Firebase (https://firebase.google.com/). <br>
+Access your project's settings, go to the Service Accounts tab, and generate a new private key. Name the key "serviceAccountKey.json". Once downloaded, place it in the "db" folder of the project (api -> config -> db). <br><br>
+Everything should be set up and ready to go!
 </p>
 
 </div>
